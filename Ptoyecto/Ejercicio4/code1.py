@@ -28,10 +28,7 @@ def mayor_triangulo_bruteforce(puntos):
                     mejor = (puntos[i], puntos[j], puntos[k])
 
     return mejor
-
-
-# ----------- EJECUCIÓN -----------
-puntos = leer_puntos("campo.in")   # ✔️ AQUÍ SÍ VA
+puntos = leer_puntos("campo.in")
 
 p1, p2, p3 = mayor_triangulo_bruteforce(puntos)
 
